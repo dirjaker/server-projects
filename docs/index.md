@@ -26,7 +26,6 @@ hero:
 | **[hermes-skill-guide](https://github.com/dirjaker/hermes-skill-guide)** | Hermes Skill 开发指南（8章/20道面试题/5个示例） | [在线访问](https://dirjaker.github.io/hermes-skill-guide/) |
 | **[docker_learning](https://github.com/dirjaker/docker_learning)** | Docker & Kubernetes 从零到实战（11篇/6示例/3速查表） | [在线访问](https://dirjaker.github.io/docker_learning/) |
 | **[langchain_learning](https://github.com/dirjaker/langchain_learning)** | LangChain + LangGraph 学习项目 | [在线访问](https://dirjaker.github.io/langchain_learning/) |
-| **[python_interview](https://github.com/dirjaker/python_interview)** | Python 面试题精讲 | [在线访问](https://dirjaker.github.io/python_interview/) |
 | **[server-projects](https://github.com/dirjaker/server-projects)** | 服务器项目清单（本项目） | [在线访问](https://dirjaker.github.io/server-projects/) |
 
 ## 💻 应用项目
@@ -46,6 +45,7 @@ hero:
 | **[model_deploy](https://github.com/dirjaker/model_deploy)** | 本地模型部署与推理优化：量化、vLLM、OpenAI兼容API | vLLM + Ollama | ✅ |
 | **[api_doc_generator](https://github.com/dirjaker/api_doc_generator)** | API 文档生成器：AST代码解析、多格式输出、在线预览 | FastAPI + Python AST | ✅ |
 | **[docker_optimizer](https://github.com/dirjaker/docker_optimizer)** | Docker 镜像优化器：层分析、问题检测、Dockerfile重写 | Click + Rich | ✅ |
+| **[python_interview](https://github.com/dirjaker/python_interview)** | Python 面试题精讲（魔法方法/装饰器/异步/设计模式） | Python + pytest | ✅ |
 | **[prompt_engineering](https://github.com/dirjaker/prompt_engineering)** | Prompt 工程平台：模板管理、版本控制、A/B测试、评估引擎 | FastAPI + SQLAlchemy | ✅ |
 | **[damai_monitor](https://github.com/dirjaker/damai_monitor)** | 大麦网票务监控：实时监控、有票提醒、Chrome+Android双模式 | Playwright + Android | ✅ |
 | **[knowledge_graph](https://github.com/dirjaker/knowledge_graph)** | 知识图谱系统：实体抽取、关系抽取、图谱可视化、NL问答 | FastAPI + Neo4j + D3.js | ✅ |
@@ -54,8 +54,8 @@ hero:
 
 | 分类 | 数量 | 说明 |
 |------|------|------|
-| VitePress 文档 | 7 | 自动部署到 GitHub Pages |
-| 应用项目 | 16 | FastAPI / Vue3 / tkinter |
+| VitePress 文档 | 6 | 自动部署到 GitHub Pages |
+| 应用项目 | 17 | FastAPI / Vue3 / tkinter |
 | **合计** | **23** | |
 
 ## 🏗️ 技术栈总览

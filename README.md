@@ -39,7 +39,7 @@
 | **portfolio** | 8000 | http://192.168.31.100:8000 |
 | **vestio** | 8001 | http://192.168.31.100:8001 |
 
-## 📚 VitePress 文档（7个）
+## 📚 VitePress 文档（6个）
 
 | 项目 | 功能 | 在线文档 |
 |------|------|----------|
@@ -48,10 +48,9 @@
 | **hermes-skill-guide** | Hermes Skill 开发指南 | [访问](https://dirjaker.github.io/hermes-skill-guide/) |
 | **docker_learning** | Docker & K8s 学习笔记 | [访问](https://dirjaker.github.io/docker_learning/) |
 | **langchain_learning** | LangChain + LangGraph 学习 | [访问](https://dirjaker.github.io/langchain_learning/) |
-| **python_interview** | Python 面试题精讲 | [访问](https://dirjaker.github.io/python_interview/) |
 | **server-projects** | 服务器项目清单（本项目） | [访问](https://dirjaker.github.io/server-projects/) |
 
-## 💻 应用项目（16个）
+## 💻 应用项目（17个）
 
 | 项目 | 功能 | 技术栈 |
 |------|------|--------|
@@ -68,6 +67,7 @@
 | **model_deploy** | 模型部署工具 | vLLM + Ollama |
 | **api_doc_generator** | API 文档生成器 | FastAPI + Python AST |
 | **docker_optimizer** | Docker 镜像优化 | Click + Rich |
+| **python_interview** | Python 面试题精讲 | Python + pytest |
 | **prompt_engineering** | Prompt 工程平台 | FastAPI + SQLAlchemy |
 | **damai_monitor** | 大麦网票务监控 | Playwright + Android |
 | **knowledge_graph** | 知识图谱系统 | FastAPI + Neo4j + D3.js |
