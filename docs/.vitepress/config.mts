@@ -34,34 +34,22 @@ export default defineConfig({
           ]
         },
         {
+          text: 'VitePress 文档',
+          items: [
+            { text: 'ai-for-textile-procurement', link: '/#vitpress-文档' },
+            { text: 'llm_agent_interview', link: '/#vitpress-文档' },
+            { text: 'hermes-skill-guide', link: '/#vitpress-文档' },
+            { text: 'docker_learning', link: '/#vitpress-文档' },
+            { text: 'langchain_learning', link: '/#vitpress-文档' },
+            { text: 'python_interview', link: '/#vitpress-文档' },
+          ]
+        },
+        {
           text: '应用项目',
           items: [
-            { text: 'vestio - 智慧衣橱', link: '/#web-应用项目' },
-            { text: 'yolo-trainer - YOLO训练', link: '/#web-应用项目' },
-            { text: 'portfolio - 作品集', link: '/#web-应用项目' },
-          ]
-        },
-        {
-          text: 'AI Agent 基础设施',
-          items: [
-            { text: 'agent_platform - Agent平台', link: '/#ai-agent-基础设施' },
-            { text: 'agent_evaluator - 评估框架', link: '/#ai-agent-基础设施' },
-            { text: 'agent_guardrails - 安全防护', link: '/#ai-agent-基础设施' },
-            { text: 'agent_memory_system - 记忆系统', link: '/#ai-agent-基础设施' },
-            { text: 'multi_agent_crew - 多Agent协作', link: '/#ai-agent-基础设施' },
-            { text: 'workflow_engine - 工作流引擎', link: '/#ai-agent-基础设施' },
-            { text: 'model-monitor - 模型监控', link: '/#ai-agent-基础设施' },
-          ]
-        },
-        {
-          text: '工具与监控',
-          items: [
-            { text: 'model_deploy - 模型部署', link: '/#工具与监控' },
-            { text: 'api_doc_generator - 文档生成', link: '/#工具与监控' },
-            { text: 'docker_optimizer - Docker优化', link: '/#工具与监控' },
-            { text: 'prompt_engineering - Prompt工程', link: '/#工具与监控' },
-            { text: 'damai_monitor - 票务监控', link: '/#工具与监控' },
-            { text: 'knowledge_graph - 知识图谱', link: '/#工具与监控' },
+            { text: 'vestio · yolo-trainer · portfolio', link: '/#应用项目' },
+            { text: 'Agent 系列 (7个)', link: '/#应用项目' },
+            { text: '工具系列 (6个)', link: '/#应用项目' },
           ]
         }
       ]
