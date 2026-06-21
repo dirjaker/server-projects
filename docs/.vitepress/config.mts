@@ -20,6 +20,8 @@ export default defineConfig({
       { text: '总览', link: '/' },
       { text: '技术架构', link: '/technical-architecture' },
       { text: '部署指南', link: '/deployment-guide' },
+      { text: '开发指南', link: '/DEVELOPMENT' },
+      { text: '变更日志', link: '/CHANGELOG' },
       { text: 'GitHub', link: 'https://github.com/dirjaker/server-projects' },
     ],
     
@@ -31,6 +33,8 @@ export default defineConfig({
             { text: '项目总览', link: '/' },
             { text: '技术架构', link: '/technical-architecture' },
             { text: '部署指南', link: '/deployment-guide' },
+            { text: '开发指南', link: '/DEVELOPMENT' },
+            { text: '变更日志', link: '/CHANGELOG' },
           ]
         },
         {
