@@ -34,12 +34,16 @@
 
 </div>
 
-## 🟢 运行中的服务
+## 🟢 运行中的服务（4个）
 
-| 服务 | 端口 | 地址 |
-|------|------|------|
-| **portfolio** | 8000 | http://192.168.31.100:8000 |
-| **vestio** | 8001 | http://192.168.31.100:8001 |
+| 服务 | 端口 | 协议 | 本地地址 |
+|------|:----:|------|----------|
+| **Portfolio** | 10000 | HTTP | http://192.168.31.100:10000 |
+| **Vestio 智慧衣橱** | 10001 | HTTP | http://192.168.31.100:10001 |
+| **知识图谱** | 10002 | HTTP | http://192.168.31.100:10002 |
+| **YOLO Trainer 亮剑平台** | 10003 | HTTP | http://192.168.31.100:10003 |
+
+> 所有服务均为前后端合并部署（单端口），FastAPI 直接托管 Vue3 前端静态文件。
 
 ## 📚 VitePress 文档（6个）
 
@@ -56,9 +60,9 @@
 
 | 项目 | 功能 | 技术栈 |
 |------|------|--------|
-| **vestio** | 智慧衣橱系统 | Vue3 + FastAPI + PyTorch |
-| **yolo-trainer** | YOLO 模型训练平台 | Vue3 + FastAPI + PyTorch |
-| **portfolio** | 个人作品集网站 | FastAPI + SQLite + Jinja2 |
+| **vestio** | 智慧衣橱系统 (:10001) | Vue3 + FastAPI + PyTorch |
+| **yolo-trainer** | YOLO 模型训练平台 (:10003) | Vue3 + FastAPI + PyTorch |
+| **portfolio** | 个人作品集网站 (:10000) | FastAPI + SQLite + Jinja2 |
 | **agent_platform** | Agent 工具调用平台 | FastAPI + Pydantic |
 | **agent_evaluator** | Agent 评估框架 | FastAPI + Pydantic |
 | **agent_guardrails** | Agent 安全防护 | FastAPI + Pydantic |
@@ -72,7 +76,7 @@
 | **python_interview** | Python 面试题精讲 | Python + pytest |
 | **prompt_engineering** | Prompt 工程平台 | FastAPI + SQLAlchemy |
 | **damai_monitor** | 大麦网票务监控 | Playwright + Android |
-| **knowledge_graph** | 知识图谱系统 | FastAPI + Neo4j + D3.js |
+| **knowledge_graph** | 知识图谱系统 (:10002) | FastAPI + Neo4j + D3.js |
 
 ## 🖥️ 服务器环境
 
@@ -83,6 +87,7 @@
 | **内网 IP** | 192.168.31.100 |
 | **公共 IP** | 223.167.62.86 |
 | **反向代理** | frpc → 101.132.81.140:7000 |
+| **端口规划** | 10000-10003（预留 10004-10009 扩展） |
 
 ## 📄 许可证
 
