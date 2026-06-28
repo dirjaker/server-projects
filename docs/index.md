@@ -36,10 +36,10 @@ hero:
 
 | 项目 | 功能描述 | 技术栈 | GitHub |
 |------|----------|--------|--------|
-| **[vestio](https://github.com/dirjaker/vestio)** (:10001) | 智慧衣橱系统：衣物管理、AI搭配推荐、通义千问VL图片分类 | Vue3 + FastAPI + PyTorch | [仓库](https://github.com/dirjaker/vestio) |
-| **[yolo-trainer](https://github.com/dirjaker/yolo-trainer)** (:10003) | YOLO 视觉模型训练平台（v5/v8/v9/v10） | Vue3 + FastAPI + PyTorch | [仓库](https://github.com/dirjaker/yolo-trainer) |
-| **[portfolio](https://github.com/dirjaker/portfolio)** (:10000) | 个人作品集/项目展示网站（前台展示+后台管理+主题系统） | FastAPI + SQLite + Jinja2 | [仓库](https://github.com/dirjaker/portfolio) |
-| **[knowledge_graph](https://github.com/dirjaker/knowledge_graph)** (:10002) | 知识图谱：LLM实体/关系抽取、D3.js可视化、智能查询、图谱分析 | FastAPI + SQLite + D3.js + Vue3 | [仓库](https://github.com/dirjaker/knowledge_graph) |
+| **[vestio](https://github.com/dirjaker/vestio)** | 智慧衣橱系统：衣物管理、AI搭配推荐、通义千问VL图片分类 | Vue3 + FastAPI + PyTorch | [仓库](https://github.com/dirjaker/vestio) |
+| **[yolo-trainer](https://github.com/dirjaker/yolo-trainer)** | YOLO 视觉模型训练平台（v5/v8/v9/v10） | Vue3 + FastAPI + PyTorch | [仓库](https://github.com/dirjaker/yolo-trainer) |
+| **[portfolio](https://github.com/dirjaker/portfolio)** | 个人作品集/项目展示网站（前台展示+后台管理+主题系统） | FastAPI + SQLite + Jinja2 | [仓库](https://github.com/dirjaker/portfolio) |
+| **[knowledge_graph](https://github.com/dirjaker/knowledge_graph)** | 知识图谱：LLM实体/关系抽取、D3.js可视化、智能查询、图谱分析 | FastAPI + SQLite + D3.js + Vue3 | [仓库](https://github.com/dirjaker/knowledge_graph) |
 | **[agent_platform](https://github.com/dirjaker/agent_platform)** | 类Dify LLM应用平台：应用管理、知识库RAG、工作流编排、工具市场 | FastAPI + SQLite + Vue3 | [仓库](https://github.com/dirjaker/agent_platform) |
 | **[agent_evaluator](https://github.com/dirjaker/agent_evaluator)** | Agent 评估框架：5维指标、自动化测试、A/B对比 | FastAPI + Pydantic | [仓库](https://github.com/dirjaker/agent_evaluator) |
 | **[agent_guardrails](https://github.com/dirjaker/agent_guardrails)** | Agent 安全防护：输入验证、PII脱敏、速率限制、审计日志 | FastAPI + Pydantic | [仓库](https://github.com/dirjaker/agent_guardrails) |

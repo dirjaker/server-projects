@@ -60,9 +60,9 @@
 
 | 项目 | 功能 | 技术栈 |
 |------|------|--------|
-| **vestio** | 智慧衣橱系统 (:10001) | Vue3 + FastAPI + PyTorch |
-| **yolo-trainer** | YOLO 模型训练平台 (:10003) | Vue3 + FastAPI + PyTorch |
-| **portfolio** | 个人作品集网站 (:10000) | FastAPI + SQLite + Jinja2 |
+| **vestio** | 智慧衣橱系统 | Vue3 + FastAPI + PyTorch |
+| **yolo-trainer** | YOLO 模型训练平台 | Vue3 + FastAPI + PyTorch |
+| **portfolio** | 个人作品集网站 | FastAPI + SQLite + Jinja2 |
 | **agent_platform** | Agent 工具调用平台 | FastAPI + Pydantic |
 | **agent_evaluator** | Agent 评估框架 | FastAPI + Pydantic |
 | **agent_guardrails** | Agent 安全防护 | FastAPI + Pydantic |
@@ -76,7 +76,7 @@
 | **python_interview** | Python 面试题精讲 | Python + pytest |
 | **prompt_engineering** | Prompt 工程平台 | FastAPI + SQLAlchemy |
 | **damai_monitor** | 大麦网票务监控 | Playwright + Android |
-| **knowledge_graph** | D3.js 可视化知识图谱 (:10002) | FastAPI + Neo4j + D3.js |
+| **knowledge_graph** | D3.js 可视化知识图谱 | FastAPI + Neo4j + D3.js |
 
 ## 🖥️ 服务器环境
 
