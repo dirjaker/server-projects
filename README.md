@@ -39,8 +39,8 @@
 | 服务 | 端口 | 协议 | 本地地址 |
 |------|:----:|------|----------|
 | **Portfolio** | 10000 | HTTP | http://192.168.31.100:10000 |
-| **Vestio 智慧衣橱** | 10001 | HTTP | http://192.168.31.100:10001 |
-| **知识图谱** | 10002 | HTTP | http://192.168.31.100:10002 |
+| **Vestio** | 10001 | HTTP | http://192.168.31.100:10001 |
+| **knowledge_graph** | 10002 | HTTP | http://192.168.31.100:10002 |
 | **YOLO Trainer** | 10003 | HTTP | http://192.168.31.100:10003 |
 
 > 所有服务均为前后端合并部署（单端口），FastAPI 直接托管 Vue3 前端静态文件。
@@ -76,7 +76,7 @@
 | **python_interview** | Python 面试题精讲 | Python + pytest |
 | **prompt_engineering** | Prompt 工程平台 | FastAPI + SQLAlchemy |
 | **damai_monitor** | 大麦网票务监控 | Playwright + Android |
-| **knowledge_graph** | 知识图谱系统 (:10002) | FastAPI + Neo4j + D3.js |
+| **knowledge_graph** | D3.js 可视化知识图谱 (:10002) | FastAPI + Neo4j + D3.js |
 
 ## 🖥️ 服务器环境
 

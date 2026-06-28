@@ -13,8 +13,8 @@ hero:
 | 服务 | 端口 | 地址 | 功能 |
 |------|:----:|------|------|
 | **Portfolio** | 10000 | http://192.168.31.100:10000 | 个人作品集展示网站 |
-| **Vestio 智慧衣橱** | 10001 | http://192.168.31.100:10001 | 衣物管理 + AI 搭配推荐 |
-| **知识图谱** | 10002 | http://192.168.31.100:10002 | D3.js 可视化知识图谱系统 |
+| **Vestio** | 10001 | http://192.168.31.100:10001 | 衣物管理 + AI 搭配推荐 |
+| **knowledge_graph** | 10002 | http://192.168.31.100:10002 | D3.js 可视化知识图谱 |
 | **YOLO Trainer** | 10003 | http://192.168.31.100:10003 | YOLO 视觉模型训练平台 |
 
 > 所有服务采用前后端合并部署（单端口），FastAPI 直接托管 Vue3 前端静态文件。
@@ -39,7 +39,7 @@ hero:
 | **[vestio](https://github.com/dirjaker/vestio)** (:10001) | 智慧衣橱系统：衣物管理、AI搭配推荐、通义千问VL图片分类 | Vue3 + FastAPI + PyTorch | [仓库](https://github.com/dirjaker/vestio) |
 | **[yolo-trainer](https://github.com/dirjaker/yolo-trainer)** (:10003) | YOLO 视觉模型训练平台（v5/v8/v9/v10） | Vue3 + FastAPI + PyTorch | [仓库](https://github.com/dirjaker/yolo-trainer) |
 | **[portfolio](https://github.com/dirjaker/portfolio)** (:10000) | 个人作品集/项目展示网站（前台展示+后台管理+主题系统） | FastAPI + SQLite + Jinja2 | [仓库](https://github.com/dirjaker/portfolio) |
-| **[knowledge_graph](https://github.com/dirjaker/knowledge_graph)** (:10002) | 知识图谱系统：LLM实体/关系抽取、D3.js可视化、智能查询、图谱分析 | FastAPI + SQLite + D3.js + Vue3 | [仓库](https://github.com/dirjaker/knowledge_graph) |
+| **[knowledge_graph](https://github.com/dirjaker/knowledge_graph)** (:10002) | 知识图谱：LLM实体/关系抽取、D3.js可视化、智能查询、图谱分析 | FastAPI + SQLite + D3.js + Vue3 | [仓库](https://github.com/dirjaker/knowledge_graph) |
 | **[agent_platform](https://github.com/dirjaker/agent_platform)** | 类Dify LLM应用平台：应用管理、知识库RAG、工作流编排、工具市场 | FastAPI + SQLite + Vue3 | [仓库](https://github.com/dirjaker/agent_platform) |
 | **[agent_evaluator](https://github.com/dirjaker/agent_evaluator)** | Agent 评估框架：5维指标、自动化测试、A/B对比 | FastAPI + Pydantic | [仓库](https://github.com/dirjaker/agent_evaluator) |
 | **[agent_guardrails](https://github.com/dirjaker/agent_guardrails)** | Agent 安全防护：输入验证、PII脱敏、速率限制、审计日志 | FastAPI + Pydantic | [仓库](https://github.com/dirjaker/agent_guardrails) |
@@ -68,8 +68,8 @@ hero:
 | 端口 | 服务 | 状态 |
 |:----:|------|:----:|
 | 10000 | Portfolio | 🟢 运行中 |
-| 10001 | Vestio 智慧衣橱 | 🟢 运行中 |
-| 10002 | 知识图谱 | 🟢 运行中 |
+| 10001 | Vestio | 🟢 运行中 |
+| 10002 | knowledge_graph | 🟢 运行中 |
 | 10003 | YOLO Trainer | 🟢 运行中 |
 | 10004-10009 | 预留扩展 | ⚪ |
 

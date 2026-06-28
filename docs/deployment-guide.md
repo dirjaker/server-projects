@@ -125,7 +125,7 @@ jobs:
 |------|:----:|----------|
 | **Portfolio** | 10000 | `cd ~/myprojects/portfolio && conda run -n portfolio python backend/main.py` |
 | **Vestio** | 10001 | `cd ~/myprojects/vestio/backend && conda run -n vestio python main.py` |
-| **知识图谱** | 10002 | `cd ~/myprojects/knowledge_graph && conda run -n knowledge_graph python main.py` |
+| **knowledge_graph** | 10002 | `cd ~/myprojects/knowledge_graph && conda run -n knowledge_graph python main.py` |
 | **YOLO Trainer** | 10003 | `cd ~/myprojects/yolo-trainer/backend && JWT_SECRET_KEY=xxx conda run -n yolo-trainer python main.py` |
 
 > 所有服务采用前后端合并部署（单端口），FastAPI 直接托管 Vue3 前端静态文件。

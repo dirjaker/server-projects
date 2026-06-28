@@ -25,7 +25,7 @@
 │                    应用服务层                                │
 ├─────────────────────────────────────────────────────────────┤
 │  FastAPI :10000   │  FastAPI :10001  │  FastAPI :10002  │  FastAPI :10003  │
-│  (Portfolio)      │  (Vestio)        │  (知识图谱)       │  (YOLO Trainer)  │
+│  (Portfolio)      │  (Vestio)        │  (knowledge_graph)       │  (YOLO Trainer)  │
 └─────────────────────────────────────────────────────────────┘
                               │
                               ▼
